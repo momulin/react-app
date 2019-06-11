@@ -1,0 +1,24 @@
+.todoitem{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    float: left; 
+    width: 100%;
+}
+.button{
+    float: right;
+    border: none;
+}
+button:focus {
+    outline:0;
+}
+.button img{
+    height: 20px;
+}
+input{
+    width: 80%;
+}
+input:focus {
+    outline:0;
+}
