@@ -19,8 +19,7 @@ const reducer = (state=initialState,action)=>{
     
     switch (action.type) {
         case actionType.AUTH_SUCCESS:
-            return updateToken(state,action); 
-            break;
+            return updateToken(state,action);
         case actionType.AUTH_FAIL:
             return authfail(state,action); 
             break;

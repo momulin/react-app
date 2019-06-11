@@ -74,12 +74,12 @@ const registerSuccess = (token)=>{
     }
 };
 
-const registerFail = (error)=>{
-    return {
-        type:actionTypes.Register_Fail,
-        error
-    }
-};
+// const registerFail = (error)=>{
+//     return {
+//         type:actionTypes.Register_Fail,
+//         error
+//     }
+// };
 
 export const register = (email,password)=>{
     return dispatch=>{

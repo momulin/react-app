@@ -57,8 +57,8 @@ class Todoitem extends React.Component{
         <div className="todoitem">
             <form onSubmit={event=>this.onSubmitHandler(event)}>
         {this.props.editing?<input ref={this.textInput} onChange={(event)=>this.ontextchangehandler(event)} defaultValue={this.props.todo}  />:<div style={textstyle} onClick={this.props.oncompletenote}>{this.props.todo}</div>}
-            <button type="button" className="button" onClick={this.props.ondeleteclick}><img src={deletebuttonimg} /></button>
-            <button type="button" className="button" onClick={()=>this.onEditHandler()}><img src={editbuttonimg} /></button>
+            <button type="button" className="button" onClick={this.props.ondeleteclick}><img src={deletebuttonimg} alt="" /></button>
+            <button type="button" className="button" onClick={()=>this.onEditHandler()}><img src={editbuttonimg} alt="" /></button>
             </form>
         </div>
         )

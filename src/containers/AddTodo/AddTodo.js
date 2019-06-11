@@ -40,7 +40,7 @@ class AddTodo extends Component{
         if(this.props.added && !this.props.ings){
             summary = <Redirect to="/" />
         }else if(this.props.ings){
-            summary = <img src={loadingimage}/>
+            summary = <img src={loadingimage} alt=""/>
         }
 
         return summary;

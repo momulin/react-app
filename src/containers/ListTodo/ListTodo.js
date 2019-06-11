@@ -33,7 +33,7 @@ export class ListTodo extends React.Component{
             }
             </div>)
         }else{
-            todos = <img src={loadingImage} />
+            todos = <img src={loadingImage}  alt=""/>
         }
         return (todos);
     }
